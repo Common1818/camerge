@@ -7,8 +7,6 @@ const chalk = require('chalk');
 const https = require('https');
 require('dotenv').config();
 
-console.log('commit');
-
 const watch = require('../utils/watch');
 const getRepo = require('../utils/getRepo');
 const getSHA = require('../utils/getSHA');
@@ -22,6 +20,8 @@ const getMessage = require('../utils/getMessage');
 const evaluateCommitStatus = require('../utils/evaluateCommitStatus');
 const commitStatus = require('../utils/models/commitStatus');
 const filterPullRequest = require('../utils/filterPullRequest');
+
+console.log("change to make change");
 
 const {
 	GITHUB_TOKEN,
