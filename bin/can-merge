@@ -21,6 +21,8 @@ const evaluateCommitStatus = require('../utils/evaluateCommitStatus');
 const commitStatus = require('../utils/models/commitStatus');
 const filterPullRequest = require('../utils/filterPullRequest');
 
+console.log("change to make change");
+
 const {
 	GITHUB_TOKEN,
 	GH_TOKEN,
